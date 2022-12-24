@@ -12,5 +12,8 @@ namespace DataAccess.Abstract
     public interface IUserDal:IEntityRepository<User>
     {
         public Task RegisterAsync(RegisterDto model);
+        public Task<User> GetUserForLoginAsync(LoginDto model);
+        public Task GenerateUserRefreshToken(int id, string refreshToken, DateTime tokenStartDate, DateTime tokenExpiredDate);
+
     }
 }

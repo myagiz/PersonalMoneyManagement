@@ -13,5 +13,9 @@ namespace Business.Constants.Messages
         public static string SPMM2 = "Updated successfully";
 
         public static string SPMM3 = "Deleted successfully";
+
+        public static string SPMM4 = "Member found";
+
+        public static string SPMM5 = "Success";
     }
 }
