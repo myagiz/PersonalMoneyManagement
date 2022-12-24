@@ -23,7 +23,7 @@ namespace Business.Concrete
         public async Task<IResult>  RegisterAsync(RegisterDto model)
         {
             await _userDal.RegisterAsync(model);
-            return new SuccessResult(SuccessMessages.PMM1);
+            return new SuccessResult(SuccessMessages.SPMM1);
         }
     }
 }
