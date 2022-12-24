@@ -13,5 +13,9 @@ namespace Business.Constants.Messages
         public static string EPMM2 = "Update error";
 
         public static string EPMM3 = "Delete error";
+
+        public static string EPMM4 = "Member not found";
+
+        public static string EPMM5 = "Member not confirm email address";
     }
 }
